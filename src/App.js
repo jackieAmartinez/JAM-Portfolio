@@ -1,14 +1,37 @@
-import logo from './logo.svg';
+import {BrowserRouter, Routes, Route} from"react-router-dom";
 import './App.css';
-import { ChakraProvider } from '@chakra-ui/react'
+import Navbar from './components/navbar';
+import Footer from './components/footer';
+import About from './pages/about';
+import Contact from './pages/contact';
+import Portfolio from './pages/portfolio';
+import Resume from './pages/resume';
+import Start from './pages/start'
+
 
 function App() {
   return (
-   <ChakraProvider>
-    <div className="App">
-      STUFF GO HERE
-    </div>
-    </ChakraProvider>
+      <BrowserRouter>
+
+     <Navbar/>
+
+      <Routes>
+
+      <Route path="/land" element={<Ltart/>} />
+
+      <Route path="/about" element={<About/>} />
+
+      <Route path="/portfolio" element={<Portfolio/>}></Route>
+
+      <Route path="/contact" element={<Contact/>}></Route> 
+
+      <Route path="/resume" element={<Resume/>}></Route>
+
+      </Routes>
+
+      <Footer/>
+
+      </BrowserRouter> 
   );
 }
 
