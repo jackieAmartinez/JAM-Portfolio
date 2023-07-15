@@ -38,7 +38,7 @@ export default function App(){
               display="flex"
               alignItems="center"
             >
-              <Logo />
+              {/* <Logo /> */}
               <VisuallyHidden>Choc</VisuallyHidden>
             </chakra.a>
             <chakra.h1 fontSize="2xl" fontWeight="medium" ml="2">
