@@ -52,11 +52,11 @@ export default function App(){
               color="brand.500"
               display={{ base: "none", md: "inline-flex" }}
             >
-              {/* <Button variant="ghost"><Link to = "/land">Land</Link></Button> */}
-              <Button variant="ghost"><Link to = "/start">About Me</Link></Button>
-              <Button variant="ghost"><Link to = "/start">Portfolio</Link></Button>
-              <Button variant="ghost"><Link to = "/start">Resume</Link></Button>
-              <Button variant="ghost"><Link to = "/start">Contact</Link></Button>
+              <Button variant="ghost"><Link to = "/land">Land</Link></Button>
+              <Button variant="ghost"><Link to = "/about">About Me</Link></Button>
+              <Button variant="ghost"><Link to = "/portfolio">Portfolio</Link></Button>
+              <Button variant="ghost"><Link to = "/resume">Resume</Link></Button>
+              <Button variant="ghost"><Link to = "/contact">Contact</Link></Button>
             </HStack>
             <Button colorScheme="brand" size="sm">
               Get Started

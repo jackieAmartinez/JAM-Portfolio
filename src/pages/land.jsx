@@ -23,7 +23,7 @@ export default function App(){
             alignItems={{ md: "center" }}
             justifyContent={{ md: "space-between" }}
           >
-            <Flex alignItems="center" justifyContent="space-between">
+            {/* <Flex alignItems="center" justifyContent="space-between">
               <Box fontSize="xl" fontWeight="semibold" color="gray.700">
                 <chakra.a
                   fontSize={["xl", , "2xl"]}
@@ -46,9 +46,9 @@ export default function App(){
                   variant="ghost"
                 />
               </Flex>
-            </Flex>
+            </Flex> */}
 
-            <Box display={["none", , "flex"]} alignItems={{ md: "center" }}>
+            {/* <Box display={["none", , "flex"]} alignItems={{ md: "center" }}>
               <chakra.a
                 display="block"
                 mx={4}
@@ -97,7 +97,7 @@ export default function App(){
               >
                 Contact
               </chakra.a>
-            </Box>
+            </Box> */}
           </Box>
         </Box>
       </chakra.nav>
