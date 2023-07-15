@@ -6,7 +6,8 @@ import About from './pages/about';
 import Contact from './pages/contact';
 import Portfolio from './pages/portfolio';
 import Resume from './pages/resume';
-import Land from './pages/land'
+import Land from './pages/land';
+import Blog from './pages/blog'
 
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
       <Route path="/contact" element={<Contact/>}></Route> 
 
       <Route path="/resume" element={<Resume/>}></Route>
+
+      <Route path="/blog" element={<Blog/>}></Route>
 
       </Routes>
 

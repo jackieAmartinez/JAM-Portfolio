@@ -1,12 +1,13 @@
 import React from "react";
 import { Box, Flex, Link, chakra } from "@chakra-ui/react";
+import images from "../assets/images/jedShoot.jpg"
 
 export default function App(){
   return (
     <Flex
-      bg="#edf3f8"
-      _dark={{ bg: "#3e3e3e" }}
-      p={50}
+      bg="#824c71"
+      _dark={{ bg: "#da4167" }}
+      p={150}
       w="full"
       alignItems="center"
       justifyContent="center"
@@ -25,10 +26,7 @@ export default function App(){
             h={{ base: 64, lg: "full" }}
             rounded={{ lg: "lg" }}
             bgSize="cover"
-            style={{
-              backgroundImage:
-                "url('https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80')",
-            }}
+            src= {images}
           ></Box>
         </Box>
 

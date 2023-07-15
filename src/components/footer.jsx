@@ -6,9 +6,9 @@ export default function App(){
   return (
     <Flex
       w="full"
-      bg="#edf3f8"
+      bg="#15616d"
       _dark={{ bg: "#3e3e3e" }}
-      p={50}
+      p={5}
       alignItems="center"
       justifyContent="center"
     >

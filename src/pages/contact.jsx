@@ -5,7 +5,7 @@ import { AiOutlineLink, AiOutlineTwitter } from "react-icons/ai";
 export default function App(){
   return (
     <Flex
-      bg="#edf3f8"
+      bg="#ffecd1"
       _dark={{ bg: "#3e3e3e" }}
       p={50}
       w="full"
@@ -60,9 +60,7 @@ export default function App(){
             color="gray.600"
             _dark={{ color: "gray.300" }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
-            eligendi similique exercitationem optio libero vitae accusamus
-            cupiditate laborum eos.
+            <a href="https://docs.google.com/document/d/1b8ctT0cceRQ8arObMu-IvuTs3dgngfk4xDyn9dIktd0/edit?usp=sharing">Resume</a>
           </chakra.p>
         </Box>
 
