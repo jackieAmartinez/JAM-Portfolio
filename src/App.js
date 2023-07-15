@@ -6,7 +6,7 @@ import About from './pages/about';
 import Contact from './pages/contact';
 import Portfolio from './pages/portfolio';
 import Resume from './pages/resume';
-import Start from './pages/start'
+import Land from './pages/land'
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
 
       <Routes>
 
-      <Route path="/land" element={<Ltart/>} />
+      <Route path="/land" element={<Land/>} />
 
       <Route path="/about" element={<About/>} />
 
