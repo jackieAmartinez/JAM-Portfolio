@@ -41,7 +41,7 @@ export default function App(){
               <Logo />
               <VisuallyHidden>Choc</VisuallyHidden>
             </chakra.a>
-            <chakra.h1 fontSize="xl" fontWeight="medium" ml="2">
+            <chakra.h1 fontSize="2xl" fontWeight="medium" ml="2">
               Jacqueline Alyssia
             </chakra.h1>
           </Flex>
