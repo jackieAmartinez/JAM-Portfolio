@@ -18,7 +18,7 @@ function App() {
 
       <Routes>
 
-      <Route path="/land" element={<Land/>} />
+      <Route path="/JAM-portfolio" element={<Land/>} />
 
       <Route path="/about" element={<About/>} />
 

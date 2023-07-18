@@ -4,12 +4,13 @@ import {
   Box,
   useColorModeValue,
   Flex,
-  IconButton,
+  // IconButton,
   Heading,
   Button,
   Stack,
 } from "@chakra-ui/react";
-import { AiOutlineMenu } from "react-icons/ai";
+// import { AiOutlineMenu } from "react-icons/ai";
+import images from "../assets/images/jedShoot.jpg"
 
 export default function App(){
   const bg = useColorModeValue("white", "gray.800");
@@ -23,81 +24,6 @@ export default function App(){
             alignItems={{ md: "center" }}
             justifyContent={{ md: "space-between" }}
           >
-            {/* <Flex alignItems="center" justifyContent="space-between">
-              <Box fontSize="xl" fontWeight="semibold" color="gray.700">
-                <chakra.a
-                  fontSize={["xl", , "2xl"]}
-                  fontWeight="bold"
-                  color="gray.800"
-                  _dark={{ color: "white" }}
-                  _hover={{
-                    color: "gray.700",
-                    _dark: { color: "gray.300" },
-                  }}
-                >
-                  Brand
-                </chakra.a>
-              </Box>
-
-              <Flex display={{ md: "none" }}>
-                <IconButton
-                  aria-label="toggle menu"
-                  icon={<AiOutlineMenu />}
-                  variant="ghost"
-                />
-              </Flex>
-            </Flex> */}
-
-            {/* <Box display={["none", , "flex"]} alignItems={{ md: "center" }}>
-              <chakra.a
-                display="block"
-                mx={4}
-                mt={[2, , 0]}
-                fontSize="sm"
-                color="gray.700"
-                _dark={{ color: "gray.200" }}
-                textTransform="capitalize"
-                _hover={{ color: "brand.400", _dark: { color: "blue.400" } }}
-              >
-                Web developers
-              </chakra.a>
-              <chakra.a
-                display="block"
-                mx={4}
-                mt={[2, , 0]}
-                fontSize="sm"
-                color="gray.700"
-                _dark={{ color: "gray.200" }}
-                textTransform="capitalize"
-                _hover={{ color: "brand.400", _dark: { color: "blue.400" } }}
-              >
-                Web Designers
-              </chakra.a>
-              <chakra.a
-                display="block"
-                mx={4}
-                mt={[2, , 0]}
-                fontSize="sm"
-                color="gray.700"
-                _dark={{ color: "gray.200" }}
-                textTransform="capitalize"
-                _hover={{ color: "brand.400", _dark: { color: "blue.400" } }}
-              >
-                UI/UX Designers
-              </chakra.a>
-              <chakra.a
-                display="block"
-                mx={4}
-                mt={[2, , 0]}
-                fontSize="sm"
-                color="gray.700"
-                _dark={{ color: "gray.200" }}
-                textTransform="capitalize"
-                _hover={{ color: "brand.400", _dark: { color: "blue.400" } }}
-              >
-                Contact
-              </chakra.a>
-            </Box> */}
           </Box>
         </Box>
       </chakra.nav>
@@ -105,7 +31,7 @@ export default function App(){
       <Box
         w="full"
         h="container.sm"
-        backgroundImage="url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)"
+        backgroundImage= { images }
         bgPos="center"
         bgSize="cover"
       >
@@ -118,15 +44,13 @@ export default function App(){
         >
           <Stack textAlign="center" alignItems="center" spacing={6}>
             <Heading
-              fontSize={["2xl", , "3xl"]}
+              fontSize={["2xl", "3xl"]}
               fontWeight="semibold"
               color="white"
               textTransform="uppercase"
             >
               Build Your new{" "}
-              <chakra.span color="blue.400" textDecor="underline">
-                Saas
-              </chakra.span>
+
             </Heading>
             <Button
               colorScheme="brand"

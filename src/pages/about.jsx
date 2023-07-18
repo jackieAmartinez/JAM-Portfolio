@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, Link, chakra } from "@chakra-ui/react";
+import { Box, Image, Flex, Link, chakra } from "@chakra-ui/react";
 import images from "../assets/images/jedShoot.jpg"
 
 export default function App(){
@@ -26,8 +26,9 @@ export default function App(){
             h={{ base: 64, lg: "full" }}
             rounded={{ lg: "lg" }}
             bgSize="cover"
-            src= {images}
-          ></Box>
+            fit="scale-down"
+          ><Image
+          src = {images} alt="an image of Jackie sitting"/></Box>
         </Box>
 
         <Box py={12} px={6} maxW={{ base: "xl", lg: "5xl" }} w={{ lg: "50%" }}>
@@ -43,10 +44,7 @@ export default function App(){
             </chakra.span>
           </chakra.h2>
           <chakra.p mt={4} color="gray.600" _dark={{ color: "gray.400" }}>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
-            modi reprehenderit vitae exercitationem aliquid dolores ullam
-            temporibus enim expedita aperiam mollitia iure consectetur dicta
-            tenetur, porro consequuntur saepe accusantium consequatur.
+          Voraciously curious, consistently resourceful, and easily adaptable to unplanned challenges, I am seeking mentorship as I stride forward through the transition into Web Development. As a student enrolled in the Full Stack Developer Bootcamp at the University of Texas at Austin, I am avidly exploring the parallels of parenthood to programming, while allowing my creative background to flourish and grow.
           </chakra.p>
 
           <Box mt={8}>

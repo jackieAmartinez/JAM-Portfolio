@@ -19,7 +19,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 
 export default function App(){
-  const bg = useColorModeValue("white", "gray.800");
+  const bg = useColorModeValue("black", "gray.800");
   const mobileNav = useDisclosure();
 
   return (
@@ -42,8 +42,8 @@ export default function App(){
               {/* <Logo /> */}
               <VisuallyHidden>Choc</VisuallyHidden>
             </chakra.a>
-            <chakra.h1 fontSize="2xl" fontWeight="medium" ml="2">
-            <Button variant="ghost"><Link to = "/land">Jacqueline Alyssia</Link></Button>
+            <chakra.h1 fontSize="xl" fontWeight="medium" ml="2">
+            <Button variant="ghost"><Link to = "/JAM-portfolio">Jacqueline Alyssia</Link></Button>
             </chakra.h1>
           </Flex>
           <HStack display="flex" alignItems="center" spacing={1}>
@@ -53,7 +53,7 @@ export default function App(){
               color="brand.500"
               display={{ base: "none", md: "inline-flex" }}
             >
-              // how do i make the title/header the link to the landing page
+              
               <Button variant="ghost"><Link to = "/about">About Me</Link></Button>
               <Button variant="ghost"><Link to = "/portfolio">Portfolio</Link></Button>
               <Button variant="ghost"><Link to = "https://docs.google.com/document/d/1b8ctT0cceRQ8arObMu-IvuTs3dgngfk4xDyn9dIktd0/edit?usp=sharing">Resume</Link></Button>
