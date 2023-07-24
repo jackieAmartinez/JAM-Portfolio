@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/JAM-Portfolio/static/js/main.a8c77a36.js",
+    "static/media/jedShoot.jpg": "/JAM-Portfolio/static/media/jedShoot.d3442570cae4b9c5cd05.jpg",
+    "index.html": "/JAM-Portfolio/index.html",
+    "main.a8c77a36.js.map": "/JAM-Portfolio/static/js/main.a8c77a36.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.a8c77a36.js"
+  ]
+}
