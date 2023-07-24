@@ -1,13 +1,14 @@
 import {BrowserRouter, Routes, Route} from"react-router-dom";
-import './App.css';
+// import './App.css';
+
 import Navbar from './components/navbar';
 import Footer from './components/footer';
 import About from './pages/about';
 import Contact from './pages/contact';
 import Portfolio from './pages/portfolio';
 import Resume from './pages/resume';
-import Land from './pages/land';
 import Blog from './pages/blog'
+import Land from './pages/land';
 
 
 function App() {
@@ -17,8 +18,6 @@ function App() {
      <Navbar/>
 
       <Routes>
-
-      <Route path="/JAM-portfolio" element={<Land/>} />
 
       <Route path="/about" element={<About/>} />
 
@@ -35,6 +34,7 @@ function App() {
       <Footer/>
 
       </BrowserRouter> 
+      
   );
 }
 

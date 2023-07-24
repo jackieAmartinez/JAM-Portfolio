@@ -27,8 +27,7 @@ export default function App(){
             rounded={{ lg: "lg" }}
             bgSize="cover"
             fit="scale-down"
-          ><Image
-          src = {images} alt="an image of Jackie sitting"/></Box>
+          ><Image src = {images} alt="image of Jackie sitting"/></Box>
         </Box>
 
         <Box py={12} px={6} maxW={{ base: "xl", lg: "5xl" }} w={{ lg: "50%" }}>
@@ -38,13 +37,10 @@ export default function App(){
             _dark={{ color: "white" }}
             fontWeight="bold"
           >
-            Build Your New{" "}
-            <chakra.span color="brand.600" _dark={{ color: "brand.400" }}>
-              Idea
-            </chakra.span>
+            Hello there{" "}
           </chakra.h2>
           <chakra.p mt={4} color="gray.600" _dark={{ color: "gray.400" }}>
-          Voraciously curious, consistently resourceful, and easily adaptable to unplanned challenges, I am seeking mentorship as I stride forward through the transition into Web Development. As a student enrolled in the Full Stack Developer Bootcamp at the University of Texas at Austin, I am avidly exploring the parallels of parenthood to programming, while allowing my creative background to flourish and grow.
+          Voraciously curious, consistently resourceful, and easily adaptable to unplanned challenges, I am avidly exploring the parallels of parenthood to programming, while allowing my creative background to flourish and grow. <br></br> <b>Think about the biggest problem on your plate...</b>
           </chakra.p>
 
           <Box mt={8}>
@@ -57,12 +53,12 @@ export default function App(){
               rounded="lg"
               _hover={{ bg: "gray.800" }}
             >
-              Start Now
+              Let's talk about how I can fix it
             </Link>
           </Box>
         </Box>
       </Box>
-    </Flex>
+      </Flex>
   );
 };
 

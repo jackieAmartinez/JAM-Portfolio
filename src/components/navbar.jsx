@@ -19,7 +19,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 
 export default function App(){
-  const bg = useColorModeValue("black", "gray.800");
+  const bg = useColorModeValue("white", "gray.800");
   const mobileNav = useDisclosure();
 
   return (
@@ -43,7 +43,7 @@ export default function App(){
               <VisuallyHidden>Choc</VisuallyHidden>
             </chakra.a>
             <chakra.h1 fontSize="xl" fontWeight="medium" ml="2">
-            <Button variant="ghost"><Link to = "/JAM-portfolio">Jacqueline Alyssia</Link></Button>
+            <Button variant="ghost"><Link to = "/about">Jacqueline Martinez</Link></Button>
             </chakra.h1>
           </Flex>
           <HStack display="flex" alignItems="center" spacing={1}>
@@ -60,9 +60,6 @@ export default function App(){
               <Button variant="ghost"><Link to = "/contact">Contact</Link></Button>
               <Button variant="ghost"><Link to = "/blog">Blog</Link></Button>
             </HStack>
-            <Button colorScheme="brand" size="sm">
-              Get Started
-            </Button>
             <Box display={{ base: "inline-flex", md: "none" }}>
               <IconButton
                 display={{ base: "flex", md: "none" }}
@@ -95,20 +92,20 @@ export default function App(){
                   onClick={mobileNav.onClose}
                 />
 
-                <Button w="full" variant="ghost">
-                  Features
+                <Button w="full" variant="ghost"><Link to = "/about">
+                  About Me</Link>
                 </Button>
-                <Button w="full" variant="ghost">
-                  Pricing
+                <Button w="full" variant="ghost"><Link to = "/portfolio">
+                  Portfolio</Link>
                 </Button>
-                <Button w="full" variant="ghost">
-                  Blog
+                <Button w="full" variant="ghost"><Link to = "/resume">
+                  Resume</Link>
                 </Button>
-                <Button w="full" variant="ghost">
-                  Company
+                <Button w="full" variant="ghost"><Link to = "/contact">
+                  Contact</Link>
                 </Button>
-                <Button w="full" variant="ghost">
-                  Sign in
+                <Button w="full" variant="ghost"><Link to = "/blog">
+                  Blog</Link>
                 </Button>
               </VStack>
             </Box>
