@@ -8,7 +8,7 @@ import Contact from './pages/contact';
 import Portfolio from './pages/portfolio';
 import Resume from './pages/resume';
 import Blog from './pages/blog'
-import Land from './pages/land';
+// import Land from './pages/land';
 
 
 function App() {

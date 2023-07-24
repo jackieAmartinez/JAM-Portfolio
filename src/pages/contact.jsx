@@ -1,13 +1,13 @@
 import React from "react";
-import { Box, Flex, Link, chakra, FormControl, FormLabel, Input,
+import { useState } from 'react';
+import { Box, FormControl, FormLabel, Input,
   Textarea,
   Button,
-  Box,
   VStack,
   useToast,
 } from '@chakra-ui/react';
 
-import { AiOutlineLink, AiOutlineTwitter } from "react-icons/ai";
+// import { AiOutlineLink, AiOutlineTwitter } from "react-icons/ai";
 
 const ContactForm = () => {
   const toast = useToast();

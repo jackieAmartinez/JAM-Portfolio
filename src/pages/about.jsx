@@ -1,6 +1,13 @@
 import React from "react";
+// import React, {useCallback} from "react";
 import { Box, Image, Flex, Link, chakra } from "@chakra-ui/react";
 import images from "../assets/images/jedShoot.jpg"
+// import {useNavigate} from "react-router-dom";
+// import images from "../assets/images/jedShoot.jpg";
+
+// const navigate = useNavigate();
+// const handleOnClick = useCallback(() => navigate('/contact', {replace: true}), [navigate]);
+
 
 export default function App(){
   return (
@@ -45,6 +52,7 @@ export default function App(){
 
           <Box mt={8}>
             <Link
+              to="/contact"
               bg="gray.900"
               color="gray.100"
               px={5}
@@ -52,6 +60,7 @@ export default function App(){
               fontWeight="semibold"
               rounded="lg"
               _hover={{ bg: "gray.800" }}
+              // onClick={handleOnClick}
             >
               Let's talk about how I can fix it
             </Link>
@@ -61,4 +70,3 @@ export default function App(){
       </Flex>
   );
 };
-

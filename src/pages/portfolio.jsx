@@ -24,9 +24,9 @@ export default function App(){
 
   const slides = [
     {
-      img: "https://imgur.com/itAitIO",
-      label: <Link to="https://imgur.com/qgIGDvA" target_blank>Deployed Application </Link>,
-      description: <Link to="https://github.com/jackieAmartinez/takingSomeNotes.git" target_blank> {""} GitHub </Link>, 
+      img: "https://imgur.com/qgIGDvA",
+      label: <Link to= "" target_blank>Deployed Application </Link>,
+      description: <Link to="https://github.com/jackieAmartinez/takingSomeNotes.git" target_blank> {""} GitHub </Link>
     },
     
   ];
